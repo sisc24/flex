@@ -289,6 +289,9 @@ body{
     margin: 15px;
 }
 
+
+
+
 /*containers*/
 .container1{
     display: flex;
@@ -334,3 +337,12 @@ body{
 
 
 /*?*/
+
+.box{
+    opacity: 0;
+    transition: 150ms;
+}
+
+.box.show{
+    opacity: 1;
+}
